@@ -1,4 +1,4 @@
-﻿namespace IBANOps
+﻿namespace IBANServices
 {
     public interface IIbanValidator
     {

@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace IBANOps
+namespace IBANServices
 {
     public class IbanValidator : IIbanValidator
     {
-        // if country code is not one of these, then probably incorrect
+        // if country code is not one of these, then probably incorrect. These are the only ones defined according to wikipedia
         private static readonly HashSet<string> countryCodes = new HashSet<string>
         {
             "AD", "AE", "AF", "AG", "AI", "AL", "AM", "AO", "AQ", "AR", "AS", "AT", "AU", "AW", "AX", "AZ",
